@@ -5,7 +5,7 @@ class Resuable_Icon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(right: 35, top: 50),
+      padding: const EdgeInsets.only(right: 10, top: 50),
       child: Row(
         // mainAxisAlignment: MainAxisAlignment.center,
         children: [

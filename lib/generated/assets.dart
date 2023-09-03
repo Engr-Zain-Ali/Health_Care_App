@@ -2,6 +2,7 @@
 class Assets {
   Assets._();
 
+  static const String iconsBikini = 'assets/Icons/bikini.png';
   static const String iconsDress = 'assets/Icons/dress.png';
   static const String iconsFf = 'assets/Icons/ff.png';
   static const String iconsGg = 'assets/Icons/gg.png';
@@ -10,11 +11,16 @@ class Assets {
   static const String iconsKkk = 'assets/Icons/kkk.png';
   static const String iconsMan bag = 'assets/Icons/man bag.png';
   static const String iconsMan shoes = 'assets/Icons/man shoes.png';
+  static const String iconsMu = 'assets/Icons/mu.png';
   static const String iconsN1 = 'assets/Icons/n1.png';
   static const String iconsNn = 'assets/Icons/nn.png';
+  static const String iconsPant = 'assets/Icons/pant.png';
   static const String iconsShirt = 'assets/Icons/shirt.png';
+  static const String iconsSkirt = 'assets/Icons/skirt.png';
   static const String iconsWoman bag = 'assets/Icons/woman bag.png';
+  static const String iconsWoman pants = 'assets/Icons/woman pants.png';
   static const String iconsWoman shoes = 'assets/Icons/woman shoes.png';
+  static const String iconsWoman tshirt = 'assets/Icons/woman tshirt.png';
   static const String images1 = 'assets/images/1.png';
   static const String images22 = 'assets/images/22.png';
   static const String images33 = 'assets/images/33.png';

@@ -1,4 +1,6 @@
+import 'package:ecommerance_app/Navigation_Screens/Search.dart';
 import 'package:ecommerance_app/screens/Home_Screen.dart';
+import 'package:ecommerance_app/screens/bottm_navigation_bar.dart';
 import 'package:ecommerance_app/screens/login_register_screen.dart';
 import 'package:ecommerance_app/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: SplashScreen(),
+      home:SplashScreen(),
     );
   }
 }

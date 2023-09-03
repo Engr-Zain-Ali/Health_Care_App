@@ -1,3 +1,4 @@
+import 'package:ecommerance_app/screens/Home_Screen.dart';
 import 'package:ecommerance_app/screens/Signup_Screen.dart';
 import 'package:ecommerance_app/screens/Splash_services.dart';
 import 'package:flutter/material.dart';
@@ -97,16 +98,19 @@ class _LoginScreenState extends State<LoginScreen> {
                       SizedBox(
                         height: 20,
                       ),
-                      Container(
-                        width: 543,
-                        height: 57,
-                        color: Color(0xff40BFFF),
-                        child: Center(
-                          child: Text('Sign In',
-                              style: TextStyle(
-                                  fontSize: 14,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.white)),
+                      InkWell(
+                        onTap: ()=>Navigator.push(context, MaterialPageRoute(builder: (context)=>Home())),
+                        child: Container(
+                          width: 543,
+                          height: 57,
+                          color: Color(0xff40BFFF),
+                          child: Center(
+                            child: Text('Sign In',
+                                style: TextStyle(
+                                    fontSize: 14,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white)),
+                          ),
                         ),
                       ),
                       SizedBox(
