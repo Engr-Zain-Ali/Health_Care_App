@@ -1,6 +1,8 @@
 import 'dart:async';
 
+import 'package:ecommerance_app/screens/3%20steps%20screen/3_steps_screen.dart';
 import 'package:ecommerance_app/screens/login_register_screen.dart';
+import 'package:ecommerance_app/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 class SplashServices {
@@ -10,7 +12,7 @@ class SplashServices {
       () => Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (context) => LoginScreen(),
+          builder: (context) => Three_1Step(),
         ),
       ),
     );

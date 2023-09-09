@@ -1,5 +1,7 @@
+import 'package:ecommerance_app/Navigation_Screens/Account.dart';
 import 'package:ecommerance_app/Navigation_Screens/HOMEE.dart';
 import 'package:ecommerance_app/Navigation_Screens/Search.dart';
+import 'package:ecommerance_app/Navigation_Screens/offer.dart';
 import 'package:ecommerance_app/resuable_widget/Resuable%20text.dart';
 import 'package:ecommerance_app/resuable_widget/Resuable_home_2.dart';
 import 'package:ecommerance_app/resuable_widget/Resuable_home_Icons.dart';
@@ -37,7 +39,7 @@ class _HomeState extends State<Home> {
                     // crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Padding(
-                        padding: const EdgeInsets.only(top: 44,left:20,right: 10),
+                        padding: const EdgeInsets.only(top: 64,left: 20),
                         child: Container(
                           decoration: BoxDecoration(
                               color: Colors.grey.withOpacity(.1),
@@ -62,7 +64,10 @@ class _HomeState extends State<Home> {
                     ],
                   ),
                 ),
-                Resuable_Icon(),
+                Padding(
+                  padding: const EdgeInsets.only(right: 28.0,top:10),
+                  child: Resuable_Icon(),
+                ),
               ],
             ),
             ResuableHomePic1(),
@@ -201,7 +206,9 @@ class _HomeState extends State<Home> {
                             ),
                             Padding(
                               padding: const EdgeInsets.only(top: 8.0,left: 8),
-                              child: Text("Cart",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 16,color: Colors.white,),),
+                              child: GestureDetector(
+
+                                  child: Text("Cart",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 16,color: Colors.white,),)),
                             )
                           ],
                         ),
@@ -222,7 +229,9 @@ class _HomeState extends State<Home> {
                             ),
                             Padding(
                               padding: const EdgeInsets.only(top: 9.0,left: 8),
-                              child: Text("Offer",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 16,color: Colors.white,),),
+                              child: GestureDetector(
+                                  onTap: ()=>Navigator.push(context, MaterialPageRoute(builder: (context)=>Offer())),
+                                  child: Text("Offer",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 16,color: Colors.white,),)),
                             )
                           ],
                         ),
@@ -242,12 +251,14 @@ class _HomeState extends State<Home> {
                               ),
                             ),
                             Padding(
-                              padding: const EdgeInsets.only(top: 9.0,left: 8),
-                              child: Text("Account",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 16,color: Colors.white,),),
+                              padding: const EdgeInsets.only(top: 9.0,left: 7),
+                              child: GestureDetector(
+                                  onTap:()=> Navigator.push(context, MaterialPageRoute(builder: (context)=>Account())),
+                                  child: Text("Account",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 16,color: Colors.white,),)),
                             )
                           ],
                         ),
-                        SizedBox(width: 15,),
+
 
 
 

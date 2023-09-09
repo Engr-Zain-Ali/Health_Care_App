@@ -1,4 +1,5 @@
 import 'package:ecommerance_app/screens/Home_Screen.dart';
+import 'package:ecommerance_app/screens/Homes.dart';
 import 'package:ecommerance_app/screens/Splash_services.dart';
 import 'package:ecommerance_app/screens/login_register_screen.dart';
 import 'package:flutter/material.dart';
@@ -149,7 +150,7 @@ class _SiginupScreenState extends State<SiginupScreen> {
                         // aur code formating kay liye
                         // ctrl + alt + L
                         onTap: () => Navigator.pushReplacement(context,
-                            MaterialPageRoute(builder: (context) => Home())),
+                            MaterialPageRoute(builder: (context) =>Homes())),
                         child: Container(
                           width: 543,
                           height: 57,

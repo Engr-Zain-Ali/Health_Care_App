@@ -22,7 +22,10 @@ class Assets {
   static const String iconsWoman shoes = 'assets/Icons/woman shoes.png';
   static const String iconsWoman tshirt = 'assets/Icons/woman tshirt.png';
   static const String images1 = 'assets/images/1.png';
+  static const String images11 = 'assets/images/11.png';
+  static const String images2 = 'assets/images/2.png';
   static const String images22 = 'assets/images/22.png';
+  static const String images3.3 = 'assets/images/3.3.png';
   static const String images33 = 'assets/images/33.png';
   static const String images4 = 'assets/images/4.png';
   static const String images5 = 'assets/images/5.png';
@@ -30,5 +33,12 @@ class Assets {
   static const String images7 = 'assets/images/7.png';
   static const String images8 = 'assets/images/8.png';
   static const String images9 = 'assets/images/9.png';
+  static const String imagesPopal = 'assets/images/popal.png';
+  static const String imagesThreeOne = 'assets/images/Three_one.png';
+  static const String imagesThreeThree = 'assets/images/Three_three.png';
+  static const String imagesThreeTwo = 'assets/images/Three_two.png';
+  static const String imagesWoman and man walk towards each other = 'assets/images/WM.png';
+  static const String imagesZz = 'assets/images/zz.jpg';
+  static const String svgScene Whiteboard sample template example = 'assets/svg/Scene Whiteboard sample template example.svg';
 
 }

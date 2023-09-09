@@ -1,3 +1,4 @@
+import 'package:ecommerance_app/screens/Shoes_desgin%20screen.dart';
 import 'package:flutter/material.dart';
 
 class ResuablePI2 extends StatelessWidget {
@@ -26,7 +27,7 @@ class ResuablePI2 extends StatelessWidget {
         "text1": "\$299,43",
         "text2": "\$534,33",
         "text3": "24% Off"
-      },
+      }
     ];
 
     return Padding(
@@ -81,8 +82,11 @@ class CardProduct extends StatelessWidget {
                 color: Colors.grey.withOpacity(.1),
                 borderRadius: BorderRadius.circular(10),
               ),
-              child: Image(
-                image: AssetImage(image),
+              child: GestureDetector(
+                onTap: ()=>Navigator.push(context, MaterialPageRoute(builder: (context)=>Desgin()),),
+                child: Image(
+                  image: AssetImage(image),
+                ),
               ),
             ),
             Text(text),

@@ -29,7 +29,7 @@ class _HomeeState extends State<Homee> {
         // crossAxisAlignment: CrossAxisAlignment.start,
         children: [
         Padding(
-        padding: const EdgeInsets.only(top: 44,left:20,right: 10),
+        padding: const EdgeInsets.only(top: 64,left:20,right: 10),
     child: Container(
     decoration: BoxDecoration(
     color: Colors.grey.withOpacity(.1),
@@ -54,7 +54,10 @@ class _HomeeState extends State<Homee> {
     ],
     ),
     ),
-    Resuable_Icon(),
+    Padding(
+      padding: const EdgeInsets.only(right: 30.0,top:10),
+      child: Resuable_Icon(),
+    ),
     ],
     ),
     Padding(

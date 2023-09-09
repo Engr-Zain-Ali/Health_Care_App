@@ -1,5 +1,10 @@
 import 'package:ecommerance_app/Navigation_Screens/Search.dart';
+import 'package:ecommerance_app/screens/3%20steps%20screen/3_2steps_screen.dart';
+import 'package:ecommerance_app/screens/3%20steps%20screen/3_3steps_screen.dart';
+import 'package:ecommerance_app/screens/3%20steps%20screen/3_steps_screen.dart';
 import 'package:ecommerance_app/screens/Home_Screen.dart';
+import 'package:ecommerance_app/screens/Shoes_desgin%20screen.dart';
+import 'package:ecommerance_app/screens/Siginup__screen.dart';
 import 'package:ecommerance_app/screens/bottm_navigation_bar.dart';
 import 'package:ecommerance_app/screens/login_register_screen.dart';
 import 'package:ecommerance_app/screens/splash_screen.dart';
